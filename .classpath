@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/chitramitc478/eclipse-workspace2/testset/lib/bsh-2.0b6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/chitramitc478/eclipse-workspace2/testset/lib/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/chitramitc478/eclipse-workspace2/testset/lib/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/chitramitc478/eclipse-workspace2/testset/lib/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="C:/Users/chitramitc478/eclipse-workspace2/testset/lib/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/chitramitc478/eclipse-workspace2/testset/lib/testng-7.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="myFirstTestNG_Project.myFirstTestNG_Class">
+        <methods>
+          <include name="verifyandreturn"/>
+          <include name="dashboardisOpened"/>
+          <include name="netbanking"/>
+          <include name="selectNetbankandPays"/>
+          <include name="confirmandProceed"/>
+          <include name="openViewDetails"/>
+          <include name="paysecurely"/>
+          <include name="allpay"/>
+          <include name="paypremium"/>
+          <include name="launchChromeDriver"/>
+          <include name="login"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- myFirstTestNG_Project.myFirstTestNG_Class -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
