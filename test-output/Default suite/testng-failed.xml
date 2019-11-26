@@ -9,12 +9,12 @@
           <include name="dashboardisOpened"/>
           <include name="netbanking"/>
           <include name="selectNetbankandPays"/>
+          <include name="invokeBrowesers"/>
           <include name="confirmandProceed"/>
           <include name="openViewDetails"/>
           <include name="paysecurely"/>
           <include name="allpay"/>
           <include name="paypremium"/>
-          <include name="launchChromeDriver"/>
           <include name="login"/>
           <include name="afterTest"/>
         </methods>

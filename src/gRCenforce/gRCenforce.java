@@ -1,35 +1,49 @@
-package myFirstTestNG_Project;
+package gRCenforce;
 
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
+
+
+
+
+
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-import invokeBrowser.*;
-import myFirstTestNG_Project.*;
+
+import myFirstTestNG_Project.takeScreenshot;
 
 
-public class myFirstTestNG_Class extends launchChrome{	
+public class gRCenforce extends takeScreenshot {
+	
+	public static WebDriver driver;
 	
 	
 	@BeforeSuite
 	
-	public void invokeBrowesers() throws Exception
-	
-	{
-	 
-		launchChrome.launchChromeDriver();
-
-		takeScreenshot.takeScreenshots();
-
-	
-	
-		   
-		   
+	public static void launchChromeDriver() throws Exception {
+		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\chitramitc478\\eclipse-workspace2\\testset\\chromedriver.exe");
+		  ChromeOptions options = new ChromeOptions();
+		  options.setExperimentalOption("useAutomationExtension", false);
+		 options.addArguments("--start-maximized");
+		  driver = new ChromeDriver(options);
+		   driver.get("http://care.kotaklifeinsurance.com/");
+		   takeScreenshot.takeScreenshots();
 		  
 	}
 	
@@ -171,9 +185,4 @@ public void paypremium() throws Exception {
 		driver.quit();
 	
 	}
-		
-	}
-
-	
-
-
+}
