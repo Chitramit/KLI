@@ -3,22 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="myFirstTestNG_Project.myFirstTestNG_Class">
+      <class name="gRCenforce.gRCenforceView_Compliance_Tasks">
         <methods>
-          <include name="verifyandreturn"/>
-          <include name="dashboardisOpened"/>
-          <include name="netbanking"/>
-          <include name="selectNetbankandPays"/>
-          <include name="invokeBrowesers"/>
-          <include name="confirmandProceed"/>
-          <include name="openViewDetails"/>
-          <include name="paysecurely"/>
-          <include name="allpay"/>
-          <include name="paypremium"/>
-          <include name="login"/>
           <include name="afterTest"/>
+          <include name="view_total_Complaince"/>
+          <include name="invokeBrowesers"/>
         </methods>
-      </class> <!-- myFirstTestNG_Project.myFirstTestNG_Class -->
+      </class> <!-- gRCenforce.gRCenforceView_Compliance_Tasks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

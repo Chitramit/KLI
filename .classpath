@@ -13,5 +13,17 @@
 	<classpathentry kind="lib" path="C:/Users/chitramitc478/eclipse-workspace2/testset/lib/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Users/chitramitc478/eclipse-workspace2/testset/lib/testng-7.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/org.apache.commons.io.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="lib/poi-examples-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="lib/poi-excelant-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.17-beta1.jar"/>
+	<classpathentry kind="lib" path="lib/poi-scratchpad-3.17-beta1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

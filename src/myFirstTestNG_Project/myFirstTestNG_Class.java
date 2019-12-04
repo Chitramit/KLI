@@ -9,11 +9,12 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-import invokeBrowser.*;
+
+import gRCenforce.generalUtils;
 import myFirstTestNG_Project.*;
 
 
-public class myFirstTestNG_Class extends launchChrome{	
+public class myFirstTestNG_Class extends generalUtils{	
 	
 	
 	@BeforeSuite
@@ -22,9 +23,9 @@ public class myFirstTestNG_Class extends launchChrome{
 	
 	{
 	 
-		launchChrome.launchChromeDriver();
+		generalUtils.launchChromeDriver();
 
-		takeScreenshot.takeScreenshots();
+		generalUtils.takeScreenshots();
 
 	
 	
