@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="gRCenforce.gRCenforceView_Compliance_Tasks">
+      <class name="gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status">
         <methods>
-          <include name="afterTest"/>
-          <include name="view_total_Complaince"/>
+          <include name="view_Not_Submitted"/>
+          <include name="view_due"/>
+          <include name="view_Not_Applicable"/>
           <include name="invokeBrowesers"/>
+          <include name="view_Non_Compliance"/>
+          <include name="view_In_Complaince_With_delay"/>
+          <include name="AfterClass"/>
+          <include name="view_overdue"/>
         </methods>
-      </class> <!-- gRCenforce.gRCenforceView_Compliance_Tasks -->
+      </class> <!-- gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

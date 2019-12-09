@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="gRCenforceView_Remediation_Tasks(failed)">
     <classes>
-      <class name="gRCenforce.gRCenforceChange_Password">
+      <class name="gRCenforce.gRCenforceView_Remediation_Tasks">
         <methods>
-          <include name="changepassword"/>
-          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="view_rejected_remediation"/>
           <include name="invokeBrowesers"/>
+          <include name="view_due_remediation"/>
+          <include name="view_total_remediation"/>
+          <include name="view_Overdue_remediation"/>
         </methods>
-      </class> <!-- gRCenforce.gRCenforceChange_Password -->
+      </class> <!-- gRCenforce.gRCenforceView_Remediation_Tasks -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- gRCenforceView_Remediation_Tasks(failed) -->
 </suite> <!-- Failed suite [Suite] -->

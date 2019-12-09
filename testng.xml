@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+ <test thread-count="1" name="gRCenforceLogin_logout">
     <classes>
       <class name="gRCenforce.gRCenforceLogin_logout"/>
-      <class name="gRCenforce.gRCenforceChange_Password"/>
+
     </classes>
-  </test> <!-- Test -->
+</test> <!-- gRCenforceLogin_logout-->
+
+<test thread-count="1" name="gRCenforceView_Remediation_Tasks">
+    <classes>
+      <class name="gRCenforce.gRCenforceView_Remediation_Tasks"/>
+
+    </classes>
+</test> <!-- gRCenforceView_Remediation_Tasks-->
+
+<test thread-count="1" name="gRCenforceView_Compliance_Tasks">
+    <classes>
+      <class name="gRCenforce.gRCenforceView_Compliance_Tasks"/>
+
+    </classes>
+</test> <!-- gRCenforceView_Compliance_Tasks-->
+
 </suite> <!-- Suite -->

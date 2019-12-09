@@ -2,6 +2,7 @@ package gRCenforce;
 
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 
 
@@ -23,7 +24,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
@@ -32,9 +35,9 @@ import org.testng.annotations.Test;
 public class gRCenforceLogin_logout extends generalUtils {
 	
 	
+	 Xls_Reader read = new Xls_Reader("C:\\Users\\chitramitc478\\git\\KLI\\Datatable.xlsx");
 	
-	
-	@BeforeSuite
+	@BeforeClass
 	public void invokeBrowesers() throws Exception
 	
 	
@@ -43,6 +46,7 @@ public class gRCenforceLogin_logout extends generalUtils {
 			generalUtils.launchChromeDriver();
 		   generalUtils.takeScreenshots();
 		  
+		  
 	}
 	
 	
@@ -50,8 +54,10 @@ public class gRCenforceLogin_logout extends generalUtils {
 	@Test(priority=1)
 	public void login() throws Exception {
 		Thread.sleep(8000);
-		driver.findElement(By.xpath("//*[@title='Login ID']")).sendKeys("submitter1");
-		driver.findElement(By.xpath("//*[@name='Password']")).sendKeys("pass@123");
+		
+				
+		driver.findElement(By.xpath("//*[@title='Login ID']")).sendKeys(read.getCellData("RegisterUserData", "userName", 2));
+		driver.findElement(By.xpath("//*[@name='Password']")).sendKeys(read.getCellData("RegisterUserData", "password", 2));
 		driver.findElement(By.xpath("//*[text()='Sign in']")).click();
 		
 		Thread.sleep(8000);
@@ -75,7 +81,7 @@ public class gRCenforceLogin_logout extends generalUtils {
 		 
 	}
 			
-		@AfterTest
+		@AfterClass
 	
 	public void afterTest()
 	{

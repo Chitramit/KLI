@@ -1,37 +1,30 @@
 package gRCenforce;
 
 import org.openqa.selenium.WebDriver;
-
-
-
-
-
-import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.List;
 
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Reporter;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
 
 
 
-
-public class  generalUtils  {
+public class  generalUtils   {
 
 	
 	public static WebDriver driver;
+
+	
 	public static  void takeScreenshots() throws Exception {
 	
 	 
@@ -50,7 +43,7 @@ public class  generalUtils  {
 
 	
 	public static void launchChromeDriver() throws Exception {
-		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\chitramitc478\\eclipse-workspace2\\testset\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\chitramitc478\\git\\KLI\\chromedriver.exe");
 		  ChromeOptions options = new ChromeOptions();
 		  options.setExperimentalOption("useAutomationExtension", false);
 		 options.addArguments("--start-maximized");
@@ -58,11 +51,43 @@ public class  generalUtils  {
 		   driver.get("http://13.71.85.180:8081/");
 		   Thread.sleep(5000);
 		   
-
-
-		
+	
 	}	
-				
+	
+	public static void click_compliance_attributes() throws Exception{
+		
+		List<WebElement>  a= driver.findElements(By.xpath("//*[@title='Compliance Attributes']"));
+	    a.get(0).click();
+	    System.out.println("User Clicks on Comliance Attributes");
+	    Thread.sleep(5000);
+	    generalUtils.takeScreenshots();
+		driver.findElement(By.xpath("//*[text()='OK']")).click();
+		System.out.println("User Clicks on OK");
+		Thread.sleep(4000);
+		
+	}
+	
+	public static void reopen_task() throws Exception{
+		
+		List<WebElement>  b= driver.findElements(By.xpath("//*[@class='fa-reopen']"));
+	    b.get(1).click();
+	    System.out.println("User Clicks on reopen task");
+	    Thread.sleep(5000);
+	    generalUtils.takeScreenshots();
+	    driver.findElement(By.xpath("//*[text()='Cancel']")).click();
+	}
+	
+	public static void workflow_history() throws Exception{
+		List<WebElement>  element= driver.findElements(By.xpath("//*[contains(@ng-click,'WorkFlowHistory')]"));
+		Actions builder = new Actions(driver);
+        builder.moveToElement(element.get(1)).click(element.get(1));
+        builder.perform();
+	
+	    System.out.println("User Clicks on Work Flow History");
+	    Thread.sleep(5000);
+	    generalUtils.takeScreenshots();
+	    driver.findElement(By.xpath("//*[text()='OK']")).click();
+}
 	
 
 }

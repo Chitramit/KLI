@@ -2,30 +2,9 @@ package gRCenforce;
 
 
 import org.testng.annotations.Test;
-import org.openqa.selenium.WebDriver;
-
-
-
-
-
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-
-import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
 
 
 
@@ -34,7 +13,7 @@ public class gRCenforceChange_Password extends generalUtils {
 	
 	
 	
-	@BeforeSuite
+	@BeforeClass
 	public void invokeBrowesers() throws Exception
 	
 	
@@ -47,7 +26,7 @@ public class gRCenforceChange_Password extends generalUtils {
 	
 	
 	
-	@Test(priority=1)
+	@Test()
 	public void login() throws Exception {
 		Thread.sleep(8000);
 		driver.findElement(By.xpath("//*[@title='Login ID']")).sendKeys("submitter1");
@@ -61,7 +40,7 @@ public class gRCenforceChange_Password extends generalUtils {
 		  
 	}
 	
-	@Test(priority=2)
+	@Test()
 	public void changepassword() throws Exception {
 		Thread.sleep(8000);
 		
@@ -86,7 +65,7 @@ public class gRCenforceChange_Password extends generalUtils {
 	}
 	
 	
-	@Test(priority=3)
+	@Test()
 	public void logout() throws Exception {
 		Thread.sleep(8000);
 		
@@ -103,7 +82,7 @@ public class gRCenforceChange_Password extends generalUtils {
 			
 		@AfterTest
 	
-	public void afterTest()
+	public void afterClass()
 	{
 		System.out.println("Test Completed");
 		driver.quit();

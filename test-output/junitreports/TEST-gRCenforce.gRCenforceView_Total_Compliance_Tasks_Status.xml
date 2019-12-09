@@ -1,116 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="6" ignored="0" total="10" passed="4">
-  <reporter-output>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192006.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192021.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192032.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192037.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192047.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192052.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192058.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192058.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192105.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192110.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192120.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192126.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192133.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192138.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192148.png' height='400' width='400'/><br>]]>
-    </line>
-    <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192205.png' height='400' width='400'/><br>]]>
-    </line>
-  </reporter-output>
-  <suite name="Default suite" duration-ms="136141" started-at="2019-12-09T19:19:50 IST" finished-at="2019-12-09T19:22:07 IST">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="136141" started-at="2019-12-09T19:19:50 IST" finished-at="2019-12-09T19:22:07 IST">
-      <class name="gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status">
-        <test-method status="PASS" signature="invokeBrowesers()[pri:0, instance:gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status@35e2d654]" name="invokeBrowesers" is-config="true" duration-ms="15202" started-at="2019-12-09T19:19:51 IST" finished-at="2019-12-09T19:20:06 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192006.png' height='400' width='400'/><br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- invokeBrowesers -->
-        <test-method status="PASS" signature="login()[pri:1, instance:gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status@35e2d654]" name="login" duration-ms="15654" started-at="2019-12-09T19:20:06 IST" finished-at="2019-12-09T19:20:21 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192021.png' height='400' width='400'/><br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="view_In_Compliance()[pri:2, instance:gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status@35e2d654]" name="view_In_Compliance" duration-ms="36740" started-at="2019-12-09T19:20:21 IST" finished-at="2019-12-09T19:20:58 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192032.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192037.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192047.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192052.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192058.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192058.png' height='400' width='400'/><br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- view_In_Compliance -->
-        <test-method status="PASS" signature="view_total_Compliance()[pri:3, instance:gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status@35e2d654]" name="view_total_Compliance" duration-ms="21753" started-at="2019-12-09T19:20:58 IST" finished-at="2019-12-09T19:21:20 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192105.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192110.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192120.png' height='400' width='400'/><br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- view_total_Compliance -->
-        <test-method status="FAIL" signature="view_In_Complaince_With_delay()[pri:4, instance:gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status@35e2d654]" name="view_In_Complaince_With_delay" duration-ms="6429" started-at="2019-12-09T19:21:20 IST" finished-at="2019-12-09T19:21:26 IST">
-          <exception class="java.lang.IndexOutOfBoundsException">
-            <message>
-              <![CDATA[Index: 0, Size: 0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+<!-- Generated by org.testng.reporters.JUnitReportReporter -->
+<testsuite skipped="0" hostname="INPC0TB3ZZ" name="gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status" tests="10" failures="0" timestamp="2019-12-09T19:22:07 IST" time="119.366" errors="6">
+  <testcase name="login" time="15.654" classname="gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status"/>
+  <testcase name="view_In_Compliance" time="36.740" classname="gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status"/>
+  <testcase name="view_total_Compliance" time="21.753" classname="gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status"/>
+  <testcase name="view_In_Complaince_With_delay" time="6.429" classname="gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status">
+    <error type="java.lang.IndexOutOfBoundsException" message="Index: 0, Size: 0">
+      <![CDATA[java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
 at java.util.ArrayList.rangeCheck(Unknown Source)
 at java.util.ArrayList.get(Unknown Source)
 at gRCenforce.generalUtils.click_compliance_attributes(generalUtils.java:60)
@@ -144,27 +40,17 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IndexOutOfBoundsException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192126.png' height='400' width='400'/><br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- view_In_Complaince_With_delay -->
-        <test-method status="FAIL" signature="view_Non_Compliance()[pri:5, instance:gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status@35e2d654]" name="view_Non_Compliance" duration-ms="21842" started-at="2019-12-09T19:21:26 IST" finished-at="2019-12-09T19:21:48 IST">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <span class="fa-reopen">...</span> is not clickable at point (1286, 351). Other element would receive the click: <div tabindex="-1" role="dialog" class="modal fade ng-isolate-scope ng-animate in-remove in-remove-active" ng-class="{in: animate}" ng-style="{'z-index': 1050 + index*10, display: 'block'}" ng-click="close($event)" modal-window="" size="lg" index="0" animate="animate" style="z-index: 1050; display: block;; transition-property: opacity;transition-duration: 0.15s;">...</div>
+    </error>
+  </testcase> <!-- view_In_Complaince_With_delay -->
+  <testcase name="view_Non_Compliance" time="21.842" classname="gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status">
+    <error type="org.openqa.selenium.ElementClickInterceptedException" message="element click intercepted: Element &lt;span class=&quot;fa-reopen&quot;&gt;...&lt;/span&gt; is not clickable at point (1286, 351). Other element would receive the click: &lt;div tabindex=&quot;-1&quot; role=&quot;dialog&quot; class=&quot;modal fade ng-isolate-scope ng-animate in-remove in-remove-active&quot; ng-class=&quot;{in: animate}&quot; ng-style=&quot;{&#039;z-index&#039;: 1050 + index*10, display: &#039;block&#039;}&quot; ng-click=&quot;close($event)&quot; modal-window=&quot;&quot; size=&quot;lg&quot; index=&quot;0&quot; animate=&quot;animate&quot; style=&quot;z-index: 1050; display: block;; transition-property: opacity;transition-duration: 0.15s;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=78.0.3904.108)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Build info: version: &#039;3.141.59&#039;, revision: &#039;e82be7d358&#039;, time: &#039;2018-11-14T08:25:48&#039;
+System info: host: &#039;INPC0TB3ZZ&#039;, ip: &#039;10.90.97.30&#039;, os.name: &#039;Windows 10&#039;, os.arch: &#039;amd64&#039;, os.version: &#039;10.0&#039;, java.version: &#039;1.8.0_231&#039;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: bf0d4afcfb5d8feb1d0acff604d72935]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="fa-reopen">...</span> is not clickable at point (1286, 351). Other element would receive the click: <div tabindex="-1" role="dialog" class="modal fade ng-isolate-scope ng-animate in-remove in-remove-active" ng-class="{in: animate}" ng-style="{'z-index': 1050 + index*10, display: 'block'}" ng-click="close($event)" modal-window="" size="lg" index="0" animate="animate" style="z-index: 1050; display: block;; transition-property: opacity;transition-duration: 0.15s;">...</div>
+Session ID: bf0d4afcfb5d8feb1d0acff604d72935">
+      <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="fa-reopen">...</span> is not clickable at point (1286, 351). Other element would receive the click: <div tabindex="-1" role="dialog" class="modal fade ng-isolate-scope ng-animate in-remove in-remove-active" ng-class="{in: animate}" ng-style="{'z-index': 1050 + index*10, display: 'block'}" ng-click="close($event)" modal-window="" size="lg" index="0" animate="animate" style="z-index: 1050; display: block;; transition-property: opacity;transition-duration: 0.15s;">...</div>
   (Session info: chrome=78.0.3904.108)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
@@ -214,42 +100,20 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192133.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192138.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192148.png' height='400' width='400'/><br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- view_Non_Compliance -->
-        <test-method status="PASS" signature="logout()[pri:6, instance:gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status@35e2d654]" name="logout" duration-ms="16878" started-at="2019-12-09T19:21:48 IST" finished-at="2019-12-09T19:22:05 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191209_192205.png' height='400' width='400'/><br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="FAIL" signature="view_Not_Applicable()[pri:6, instance:gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status@35e2d654]" name="view_Not_Applicable" duration-ms="17" started-at="2019-12-09T19:22:05 IST" finished-at="2019-12-09T19:22:05 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@ng-click,'getNATask')]"}
+    </error>
+  </testcase> <!-- view_Non_Compliance -->
+  <testcase name="logout" time="16.878" classname="gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status"/>
+  <testcase name="view_Not_Applicable" time="0.017" classname="gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status">
+    <error type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@ng-click,&#039;getNATask&#039;)]&quot;}
   (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Build info: version: &#039;3.141.59&#039;, revision: &#039;e82be7d358&#039;, time: &#039;2018-11-14T08:25:48&#039;
+System info: host: &#039;INPC0TB3ZZ&#039;, ip: &#039;10.90.97.30&#039;, os.name: &#039;Windows 10&#039;, os.arch: &#039;amd64&#039;, os.version: &#039;10.0&#039;, java.version: &#039;1.8.0_231&#039;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: bf0d4afcfb5d8feb1d0acff604d72935
-*** Element info: {Using=xpath, value=//*[contains(@ng-click,'getNATask')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@ng-click,'getNATask')]"}
+*** Element info: {Using=xpath, value=//*[contains(@ng-click,&#039;getNATask&#039;)]}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@ng-click,'getNATask')]"}
   (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
@@ -302,26 +166,19 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- view_Not_Applicable -->
-        <test-method status="FAIL" signature="view_Not_Submitted()[pri:7, instance:gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status@35e2d654]" name="view_Not_Submitted" duration-ms="18" started-at="2019-12-09T19:22:05 IST" finished-at="2019-12-09T19:22:05 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@ng-click,'getNUTask')]"}
+    </error>
+  </testcase> <!-- view_Not_Applicable -->
+  <testcase name="view_Not_Submitted" time="0.018" classname="gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status">
+    <error type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@ng-click,&#039;getNUTask&#039;)]&quot;}
   (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Build info: version: &#039;3.141.59&#039;, revision: &#039;e82be7d358&#039;, time: &#039;2018-11-14T08:25:48&#039;
+System info: host: &#039;INPC0TB3ZZ&#039;, ip: &#039;10.90.97.30&#039;, os.name: &#039;Windows 10&#039;, os.arch: &#039;amd64&#039;, os.version: &#039;10.0&#039;, java.version: &#039;1.8.0_231&#039;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: bf0d4afcfb5d8feb1d0acff604d72935
-*** Element info: {Using=xpath, value=//*[contains(@ng-click,'getNUTask')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@ng-click,'getNUTask')]"}
+*** Element info: {Using=xpath, value=//*[contains(@ng-click,&#039;getNUTask&#039;)]}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@ng-click,'getNUTask')]"}
   (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
@@ -374,26 +231,19 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- view_Not_Submitted -->
-        <test-method status="FAIL" signature="view_due()[pri:8, instance:gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status@35e2d654]" name="view_due" duration-ms="20" started-at="2019-12-09T19:22:05 IST" finished-at="2019-12-09T19:22:05 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@ng-click,'getDueTask')]"}
+    </error>
+  </testcase> <!-- view_Not_Submitted -->
+  <testcase name="view_due" time="0.020" classname="gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status">
+    <error type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@ng-click,&#039;getDueTask&#039;)]&quot;}
   (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Build info: version: &#039;3.141.59&#039;, revision: &#039;e82be7d358&#039;, time: &#039;2018-11-14T08:25:48&#039;
+System info: host: &#039;INPC0TB3ZZ&#039;, ip: &#039;10.90.97.30&#039;, os.name: &#039;Windows 10&#039;, os.arch: &#039;amd64&#039;, os.version: &#039;10.0&#039;, java.version: &#039;1.8.0_231&#039;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: bf0d4afcfb5d8feb1d0acff604d72935
-*** Element info: {Using=xpath, value=//*[contains(@ng-click,'getDueTask')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@ng-click,'getDueTask')]"}
+*** Element info: {Using=xpath, value=//*[contains(@ng-click,&#039;getDueTask&#039;)]}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@ng-click,'getDueTask')]"}
   (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
@@ -446,26 +296,19 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- view_due -->
-        <test-method status="FAIL" signature="view_overdue()[pri:9, instance:gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status@35e2d654]" name="view_overdue" duration-ms="15" started-at="2019-12-09T19:22:05 IST" finished-at="2019-12-09T19:22:05 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@ng-click,'getOverDueTask')]"}
+    </error>
+  </testcase> <!-- view_due -->
+  <testcase name="view_overdue" time="0.015" classname="gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status">
+    <error type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@ng-click,&#039;getOverDueTask&#039;)]&quot;}
   (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Build info: version: &#039;3.141.59&#039;, revision: &#039;e82be7d358&#039;, time: &#039;2018-11-14T08:25:48&#039;
+System info: host: &#039;INPC0TB3ZZ&#039;, ip: &#039;10.90.97.30&#039;, os.name: &#039;Windows 10&#039;, os.arch: &#039;amd64&#039;, os.version: &#039;10.0&#039;, java.version: &#039;1.8.0_231&#039;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: bf0d4afcfb5d8feb1d0acff604d72935
-*** Element info: {Using=xpath, value=//*[contains(@ng-click,'getOverDueTask')]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@ng-click,'getOverDueTask')]"}
+*** Element info: {Using=xpath, value=//*[contains(@ng-click,&#039;getOverDueTask&#039;)]}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@ng-click,'getOverDueTask')]"}
   (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
@@ -518,16 +361,6 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- view_overdue -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status@35e2d654]" name="AfterClass" is-config="true" duration-ms="1503" started-at="2019-12-09T19:22:05 IST" finished-at="2019-12-09T19:22:07 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterClass -->
-      </class> <!-- gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
-</testng-results>
+    </error>
+  </testcase> <!-- view_overdue -->
+</testsuite> <!-- gRCenforce.gRCenforceView_Total_Compliance_Tasks_Status -->
