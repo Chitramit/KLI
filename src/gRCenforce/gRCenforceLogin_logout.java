@@ -47,8 +47,8 @@ public class gRCenforceLogin_logout extends generalUtils {
 	
 	{
 	
-			generalUtils.launchChromeDriver();
-		   generalUtils.takeScreenshots();
+		generalUtils.launchChromeDriver();
+		generalUtils.takeScreenshots();
 		  
 		  
 	}
@@ -57,31 +57,25 @@ public class gRCenforceLogin_logout extends generalUtils {
 	
 	@Test(priority=1)
 	public void login() throws Exception {
-		Thread.sleep(8000);
 		
-				
-		driver.findElement(By.xpath("//*[@title='Login ID']")).sendKeys(read.getCellData("RegisterUserData", "userName", 2));
-		driver.findElement(By.xpath("//*[@name='Password']")).sendKeys(read.getCellData("RegisterUserData", "password", 2));
-		driver.findElement(By.xpath("//*[text()='Sign in']")).click();
-		
-		Thread.sleep(8000);
-		
-		 generalUtils.takeScreenshots();
-		 System.out.println("User is able to login");
+		Thread.sleep(8000);		
+		elements.username.sendKeys(read.getCellData("RegisterUserData", "userName", 2));
+		elements.password.sendKeys(read.getCellData("RegisterUserData", "password", 2));
+		elements.Signin.click();		
+		Thread.sleep(8000);		
+		generalUtils.takeScreenshots();
+		System.out.println("User is able to login");
 		  
 	}
 	
 	@Test(priority=2)
 	public void logout() throws Exception {
-		Thread.sleep(8000);
-		
-		driver.findElement(By.xpath("//*[@title='Settings']")).click();
-		driver.findElement(By.xpath("//*[text()='Sign Out']")).click();
-		
-		Thread.sleep(8000);
-		
-		 generalUtils.takeScreenshots();
-		 System.out.println("User is able to logout");
+		Thread.sleep(8000);		
+		elements.settings.click();
+		elements.signout.click();		
+		Thread.sleep(8000);		
+		generalUtils.takeScreenshots();
+		System.out.println("User is able to logout");
 		 
 	}
 			

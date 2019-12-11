@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="gRCenforce.gRCenforceFilter_Graph">
+      <class name="gRCenforce.gRCenforceLogin_logout">
         <methods>
-          <include name="AfterClass"/>
-          <include name="select_Location_BU"/>
+          <include name="afterTest"/>
+          <include name="login"/>
+          <include name="logout"/>
           <include name="invokeBrowesers"/>
         </methods>
-      </class> <!-- gRCenforce.gRCenforceFilter_Graph -->
+      </class> <!-- gRCenforce.gRCenforceLogin_logout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

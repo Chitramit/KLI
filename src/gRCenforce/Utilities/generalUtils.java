@@ -23,9 +23,8 @@ import org.testng.Reporter;
 public class  generalUtils   {
 
 	
+	
 	public static WebDriver driver;
-	
-	
 	
 	
 

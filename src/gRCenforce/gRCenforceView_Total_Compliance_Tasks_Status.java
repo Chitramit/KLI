@@ -109,89 +109,86 @@ public void view_In_Complaince_With_delay() throws Exception{
 
 public void view_Non_Compliance() throws Exception{
 				
-	WebElement element=	driver.findElement(By.xpath("//*[contains(@ng-click,'getNotImplementedTask')]"));
-	JavascriptExecutor executor = (JavascriptExecutor)driver;
-	executor.executeScript("arguments[0].click();", element);
-	Thread.sleep(6000);
-	generalUtils.takeScreenshots();
-	System.out.println("User is able to click on Non-Compliance Tasks");		
-	generalUtils.click_compliance_attributes();
-	generalUtils.workflow_history();
-	generalUtils.reopen_task();
-	Thread.sleep(4000);
+		WebElement element=	driver.findElement(By.xpath("//*[contains(@ng-click,'getNotImplementedTask')]"));
+		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].click();", element);
+		Thread.sleep(6000);
+		generalUtils.takeScreenshots();
+		System.out.println("User is able to click on Non-Compliance Tasks");		
+		generalUtils.click_compliance_attributes();
+		generalUtils.workflow_history();
+		generalUtils.reopen_task();
+		Thread.sleep(4000);
 	
 		}
 @Test(priority=6)
 
 public void view_Not_Applicable() throws Exception{
-	WebElement element=	driver.findElement(By.xpath("//*[contains(@ng-click,'getNATask')]"));
-	JavascriptExecutor executor = (JavascriptExecutor)driver;
-	executor.executeScript("arguments[0].click();", element);
-	Thread.sleep(6000);
-	generalUtils.takeScreenshots();
-	System.out.println("User is able to click on Not Applicable Tasks");		
-	generalUtils.click_compliance_attributes();
-	generalUtils.workflow_history();
-	Thread.sleep(4000);
-	
+		WebElement element=	driver.findElement(By.xpath("//*[contains(@ng-click,'getNATask')]"));
+		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].click();", element);
+		Thread.sleep(6000);
+		generalUtils.takeScreenshots();
+		System.out.println("User is able to click on Not Applicable Tasks");		
+		generalUtils.click_compliance_attributes();
+		generalUtils.workflow_history();
+		Thread.sleep(4000);
+		
 		}
 @Test(priority=7)
 
 public void view_Not_Submitted() throws Exception{
-	WebElement element=	driver.findElement(By.xpath("//*[contains(@ng-click,'getNUTask')]"));
-	JavascriptExecutor executor = (JavascriptExecutor)driver;
-	executor.executeScript("arguments[0].click();", element);			
-	Thread.sleep(15000);
-	generalUtils.takeScreenshots();
-	System.out.println("User is able to click on Not Submitted Tasks");		
-	generalUtils.click_compliance_attributes();
-	generalUtils.workflow_history();
-	Thread.sleep(4000);
+		WebElement element=	driver.findElement(By.xpath("//*[contains(@ng-click,'getNUTask')]"));
+		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].click();", element);			
+		Thread.sleep(15000);
+		generalUtils.takeScreenshots();
+		System.out.println("User is able to click on Not Submitted Tasks");		
+		generalUtils.click_compliance_attributes();
+		generalUtils.workflow_history();
+		Thread.sleep(4000);
 	
 		}
 @Test(priority=8)
 
 public void view_due() throws Exception{
-	WebElement element=	driver.findElement(By.xpath("//*[contains(@ng-click,'getDueTask')]"));
-	JavascriptExecutor executor = (JavascriptExecutor)driver;
-	executor.executeScript("arguments[0].click();", element);				
-	Thread.sleep(8000);
-	generalUtils.takeScreenshots();
-	System.out.println("User is able to click on Due Tasks");		
-	generalUtils.click_compliance_attributes();
-	generalUtils.workflow_history();
-	Thread.sleep(4000);
-	
+		WebElement element=	driver.findElement(By.xpath("//*[contains(@ng-click,'getDueTask')]"));
+		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].click();", element);				
+		Thread.sleep(8000);
+		generalUtils.takeScreenshots();
+		System.out.println("User is able to click on Due Tasks");		
+		generalUtils.click_compliance_attributes();
+		generalUtils.workflow_history();
+		Thread.sleep(4000);
+		
 		}
 
 @Test(priority=9)
 
 public void view_overdue() throws Exception{
-	WebElement element=	driver.findElement(By.xpath("//*[contains(@ng-click,'getOverDueTask')]"));
-	JavascriptExecutor executor = (JavascriptExecutor)driver;
-	executor.executeScript("arguments[0].click();", element);					
-	Thread.sleep(6000);
-	generalUtils.takeScreenshots();
-	System.out.println("User is able to click on Overdue Tasks");		
-	generalUtils.click_compliance_attributes();
-	generalUtils.workflow_history();
-	Thread.sleep(4000);
-	
+		WebElement element=	driver.findElement(By.xpath("//*[contains(@ng-click,'getOverDueTask')]"));
+		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].click();", element);					
+		Thread.sleep(6000);
+		generalUtils.takeScreenshots();
+		System.out.println("User is able to click on Overdue Tasks");		
+		generalUtils.click_compliance_attributes();
+		generalUtils.workflow_history();
+		Thread.sleep(4000);
+		
 		}
 
 
 
 	@Test(priority=10)
 	public void logout() throws Exception {
-		Thread.sleep(8000);
-		
+		Thread.sleep(8000);		
 		driver.findElement(By.xpath("//*[@title='Settings']")).click();
 		driver.findElement(By.xpath("//*[text()='Sign Out']")).click();
-		
 		Thread.sleep(8000);
-		
-		 generalUtils.takeScreenshots();
-		 System.out.println("User is able to logout");
+		generalUtils.takeScreenshots();
+		System.out.println("User is able to logout");
 		 
 	}
 			
