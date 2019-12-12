@@ -8,9 +8,16 @@ import gRCenforce.Utilities.generalUtils;
 
 import static org.testng.Assert.assertEquals;
 
+import java.awt.Robot;
+import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 
@@ -36,8 +43,8 @@ public class gRCenforceCreate_Compliance_Admin extends generalUtils {
 	
 	@Test(priority = 1)
 	public void login() throws Exception {
-		driver.findElement(By.xpath("//*[@title='Login ID']")).sendKeys(read.getCellData("RegisterUserData", "userName", 2));
-		driver.findElement(By.xpath("//*[@name='Password']")).sendKeys(read.getCellData("RegisterUserData", "password", 2));
+		driver.findElement(By.xpath("//*[@title='Login ID']")).sendKeys(read.getCellData("GeneralUserData", "userName", 2));
+		driver.findElement(By.xpath("//*[@name='Password']")).sendKeys(read.getCellData("GeneralUserData", "password", 2));
 		driver.findElement(By.xpath("//*[text()='Sign in']")).click();			
 		Thread.sleep(15000);
 		String Name = driver.findElement(By.xpath("//*[text()='Welcome']//following::span[2]")).getText();
@@ -62,10 +69,40 @@ public class gRCenforceCreate_Compliance_Admin extends generalUtils {
 		Thread.sleep(6000);
 		generalUtils.takeScreenshots();
 		driver.findElement(By.xpath("//span[text()='Create New Compliance']")).click();
-		Thread.sleep(6000);
+		Thread.sleep(9000);
 		generalUtils.takeScreenshots();
+		//select Location name
 		driver.findElement(By.xpath("//*[@name='LocationName']")).click();
-		Thread.sleep(6000);
+		Thread.sleep(6000);		
+		WebElement locationname = driver.findElement(By.xpath("//*[@title='"+read.getCellData("RegisterUserData", "compliance_Location", 2)+"']//following-sibling::span[contains(text(),'"+read.getCellData("RegisterUserData", "compliance_Location", 2)+"')]"));		
+		JavascriptExecutor executor12= (JavascriptExecutor)driver;
+		executor12.executeScript("arguments[0].click();", locationname);
+		Thread.sleep(3000);		
+		//select Business Unit
+		driver.findElement(By.xpath("//*[@name='BusinessUnitName']")).click();
+		Thread.sleep(2000);
+		WebElement buname =driver.findElement(By.xpath("//*[@title='"+read.getCellData("RegisterUserData","compliance_BU", 2)+"']//following-sibling::span[contains(text(),'"+read.getCellData("RegisterUserData", "compliance_BU", 2)+"')]"));
+		JavascriptExecutor executor3 = (JavascriptExecutor)driver;
+		executor3.executeScript("arguments[0].click();", buname);
+		Thread.sleep(3000);
+		//select Department
+		driver.findElement(By.xpath("//*[@name='DepartmentName']")).click();
+		Thread.sleep(2000);
+		WebElement department =driver.findElement(By.xpath("//*[@title='"+read.getCellData("RegisterUserData","compliance_Department", 2)+"']//following-sibling::span[contains(text(),'"+read.getCellData("RegisterUserData", "compliance_Department", 2)+"')]"));
+		JavascriptExecutor executor13 = (JavascriptExecutor)driver;
+		executor13.executeScript("arguments[0].click();", department);
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//*[@name='ComplianceTitle']")).sendKeys(read.getCellData("RegisterUserData", "compliance_Tilte", 2));
+		String compliance_title =  read.getCellData("RegisterUserData", "compliance_Tilte", 2);
+		String [] array = compliance_title.split("_");
+		int num = Integer.parseInt(array[1]);
+		num=num+1;
+		String sp2 = Integer.toString(num);
+		String sp3= array[0]+sp2;
+		System.out.println(sp3);
+		read.setCellData("RegisterUserData", "compliance_Tilte", 2, sp3);
+		
+		
 		
 		
 		

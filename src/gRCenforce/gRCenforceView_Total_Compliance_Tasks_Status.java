@@ -37,8 +37,8 @@ public class gRCenforceView_Total_Compliance_Tasks_Status extends generalUtils  
 	@Test(priority=1)
 	public  void login() throws Exception {
 		
-		driver.findElement(By.xpath("//*[@title='Login ID']")).sendKeys(read.getCellData("RegisterUserData", "userName", 2));
-		driver.findElement(By.xpath("//*[@name='Password']")).sendKeys(read.getCellData("RegisterUserData", "password", 2));
+		driver.findElement(By.xpath("//*[@title='Login ID']")).sendKeys(read.getCellData("GeneralUserData", "userName", 2));
+		driver.findElement(By.xpath("//*[@name='Password']")).sendKeys(read.getCellData("GeneralUserData", "password", 2));
 		driver.findElement(By.xpath("//*[text()='Sign in']")).click();
 		
 		Thread.sleep(15000);

@@ -18,6 +18,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Reporter;
 
+import gRCenforce.Elements;
+
 
 
 public class  generalUtils   {
@@ -26,7 +28,7 @@ public class  generalUtils   {
 	
 	public static WebDriver driver;
 	
-	
+	public static Xls_Reader read = new Xls_Reader("C:\\Users\\chitramitc478\\git\\KLI\\Datatable.xlsx");
 
 	
 	public static  void takeScreenshots() throws Exception {
