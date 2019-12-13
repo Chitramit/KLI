@@ -3,15 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="gRCenforce.gRCenforceCreate_Compliance_Admin">
+      <class name="gRCenforce.gRCenforceSubmit_implemented_task">
         <methods>
-          <include name="click_new_Compliance"/>
-          <include name="logout"/>
-          <include name="invokeBrowesers"/>
           <include name="login"/>
-          <include name="afterClass"/>
+          <include name="filter_compliance"/>
+          <include name="invokeBrowesers"/>
+          <include name="select_compliance_approve"/>
+          <include name="go_to_all_Compliances"/>
+          <include name="logout"/>
+          <include name="AfterClass"/>
         </methods>
-      </class> <!-- gRCenforce.gRCenforceCreate_Compliance_Admin -->
+      </class> <!-- gRCenforce.gRCenforceSubmit_implemented_task -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

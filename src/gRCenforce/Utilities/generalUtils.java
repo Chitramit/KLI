@@ -55,7 +55,7 @@ public class  generalUtils   {
 		 options.addArguments("--start-maximized");
 		  driver = new ChromeDriver(options);
 		   driver.get("http://13.71.85.180:8081/");
-		   Thread.sleep(5000);
+		   Thread.sleep(10000);
 		   
 	
 	}	
