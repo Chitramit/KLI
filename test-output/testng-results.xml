@@ -2,67 +2,66 @@
 <testng-results skipped="5" failed="0" ignored="0" total="5" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200005.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_173941.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200020.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_173956.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200031.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174007.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200037.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174013.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200043.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174020.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200120.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174057.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200123.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174100.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200135.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174111.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200138.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174114.png' height='400' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174121.png' height='400' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174138.png' height='400' width='400'/><br>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="112407" started-at="2019-12-13T19:59:46 IST" finished-at="2019-12-13T20:01:38 IST">
+  <suite name="Default suite" duration-ms="164116" started-at="2019-12-16T17:39:19 IST" finished-at="2019-12-16T17:42:03 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="112407" started-at="2019-12-13T19:59:46 IST" finished-at="2019-12-13T20:01:38 IST">
-      <class name="gRCenforce.gRCenforceSubmit_implemented_task">
-        <test-method status="FAIL" signature="invokeBrowesers()[pri:0, instance:gRCenforce.gRCenforceSubmit_implemented_task@351d00c0]" name="invokeBrowesers" is-config="true" duration-ms="112323" started-at="2019-12-13T19:59:46 IST" finished-at="2019-12-13T20:01:38 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+    <test name="Default test" duration-ms="164116" started-at="2019-12-16T17:39:19 IST" finished-at="2019-12-16T17:42:03 IST">
+      <class name="gRCenforce.gRCenforceSubmit_Remediation_Implemented_task">
+        <test-method status="FAIL" signature="invokeBrowesers()[pri:0, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="invokeBrowesers" is-config="true" duration-ms="164015" started-at="2019-12-16T17:39:19 IST" finished-at="2019-12-16T17:42:03 IST">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='OK']"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
+  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e186baf82908e3cfd03a99a6b4b8d7da
-*** Element info: {Using=xpath, value=//*[text()='OK']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 97d3925747095adb8b41b6e8537815d4
+*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='OK']"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
+  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e186baf82908e3cfd03a99a6b4b8d7da
-*** Element info: {Using=xpath, value=//*[text()='OK']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 97d3925747095adb8b41b6e8537815d4
+*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -71,8 +70,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at gRCenforce.gRCenforceCreate_Compliance_Admin.click_new_Compliance(gRCenforceCreate_Compliance_Admin.java:197)
-at gRCenforce.gRCenforceSubmit_implemented_task.invokeBrowesers(gRCenforceSubmit_implemented_task.java:36)
+at gRCenforce.gRCenforceSubmit_Notimplemented_task.login(gRCenforceSubmit_Notimplemented_task.java:50)
+at gRCenforce.gRCenforceSubmit_Remediation_Implemented_task.invokeBrowesers(gRCenforceSubmit_Remediation_Implemented_task.java:38)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -101,66 +100,65 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
             <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200005.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_173941.png' height='400' width='400'/><br>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200020.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_173956.png' height='400' width='400'/><br>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200031.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174007.png' height='400' width='400'/><br>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200037.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174013.png' height='400' width='400'/><br>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200043.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174020.png' height='400' width='400'/><br>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200120.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174057.png' height='400' width='400'/><br>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200123.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174100.png' height='400' width='400'/><br>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200135.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174111.png' height='400' width='400'/><br>]]>
             </line>
             <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191213_200138.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174114.png' height='400' width='400'/><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174121.png' height='400' width='400'/><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174138.png' height='400' width='400'/><br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- invokeBrowesers -->
-        <test-method status="SKIP" signature="login()[pri:1, instance:gRCenforce.gRCenforceSubmit_implemented_task@351d00c0]" name="login" duration-ms="0" started-at="2019-12-13T20:01:38 IST" finished-at="2019-12-13T20:01:38 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="login()[pri:1, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="login" duration-ms="0" started-at="2019-12-16T17:42:03 IST" finished-at="2019-12-16T17:42:03 IST">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='OK']"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
+  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e186baf82908e3cfd03a99a6b4b8d7da
-*** Element info: {Using=xpath, value=//*[text()='OK']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 97d3925747095adb8b41b6e8537815d4
+*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='OK']"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
+  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e186baf82908e3cfd03a99a6b4b8d7da
-*** Element info: {Using=xpath, value=//*[text()='OK']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 97d3925747095adb8b41b6e8537815d4
+*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -169,8 +167,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at gRCenforce.gRCenforceCreate_Compliance_Admin.click_new_Compliance(gRCenforceCreate_Compliance_Admin.java:197)
-at gRCenforce.gRCenforceSubmit_implemented_task.invokeBrowesers(gRCenforceSubmit_implemented_task.java:36)
+at gRCenforce.gRCenforceSubmit_Notimplemented_task.login(gRCenforceSubmit_Notimplemented_task.java:50)
+at gRCenforce.gRCenforceSubmit_Remediation_Implemented_task.invokeBrowesers(gRCenforceSubmit_Remediation_Implemented_task.java:38)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -199,39 +197,32 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="SKIP" signature="go_to_all_Compliances()[pri:2, instance:gRCenforce.gRCenforceSubmit_implemented_task@351d00c0]" name="go_to_all_Compliances" duration-ms="0" started-at="2019-12-13T20:01:38 IST" finished-at="2019-12-13T20:01:38 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="go_to_all_Remediation()[pri:2, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="go_to_all_Remediation" duration-ms="0" started-at="2019-12-16T17:42:03 IST" finished-at="2019-12-16T17:42:03 IST">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='OK']"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
+  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e186baf82908e3cfd03a99a6b4b8d7da
-*** Element info: {Using=xpath, value=//*[text()='OK']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 97d3925747095adb8b41b6e8537815d4
+*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='OK']"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
+  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e186baf82908e3cfd03a99a6b4b8d7da
-*** Element info: {Using=xpath, value=//*[text()='OK']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 97d3925747095adb8b41b6e8537815d4
+*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -240,8 +231,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at gRCenforce.gRCenforceCreate_Compliance_Admin.click_new_Compliance(gRCenforceCreate_Compliance_Admin.java:197)
-at gRCenforce.gRCenforceSubmit_implemented_task.invokeBrowesers(gRCenforceSubmit_implemented_task.java:36)
+at gRCenforce.gRCenforceSubmit_Notimplemented_task.login(gRCenforceSubmit_Notimplemented_task.java:50)
+at gRCenforce.gRCenforceSubmit_Remediation_Implemented_task.invokeBrowesers(gRCenforceSubmit_Remediation_Implemented_task.java:38)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -270,39 +261,32 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- go_to_all_Compliances -->
-        <test-method status="SKIP" signature="filter_compliance()[pri:3, instance:gRCenforce.gRCenforceSubmit_implemented_task@351d00c0]" name="filter_compliance" duration-ms="0" started-at="2019-12-13T20:01:38 IST" finished-at="2019-12-13T20:01:38 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- go_to_all_Remediation -->
+        <test-method status="SKIP" signature="filter_compliance()[pri:3, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="filter_compliance" duration-ms="0" started-at="2019-12-16T17:42:03 IST" finished-at="2019-12-16T17:42:03 IST">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='OK']"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
+  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e186baf82908e3cfd03a99a6b4b8d7da
-*** Element info: {Using=xpath, value=//*[text()='OK']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 97d3925747095adb8b41b6e8537815d4
+*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='OK']"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
+  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e186baf82908e3cfd03a99a6b4b8d7da
-*** Element info: {Using=xpath, value=//*[text()='OK']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 97d3925747095adb8b41b6e8537815d4
+*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -311,8 +295,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at gRCenforce.gRCenforceCreate_Compliance_Admin.click_new_Compliance(gRCenforceCreate_Compliance_Admin.java:197)
-at gRCenforce.gRCenforceSubmit_implemented_task.invokeBrowesers(gRCenforceSubmit_implemented_task.java:36)
+at gRCenforce.gRCenforceSubmit_Notimplemented_task.login(gRCenforceSubmit_Notimplemented_task.java:50)
+at gRCenforce.gRCenforceSubmit_Remediation_Implemented_task.invokeBrowesers(gRCenforceSubmit_Remediation_Implemented_task.java:38)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -341,39 +325,32 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filter_compliance -->
-        <test-method status="SKIP" signature="select_compliance_approve()[pri:4, instance:gRCenforce.gRCenforceSubmit_implemented_task@351d00c0]" name="select_compliance_approve" duration-ms="0" started-at="2019-12-13T20:01:38 IST" finished-at="2019-12-13T20:01:38 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="SKIP" signature="select_remediaion_Implement()[pri:4, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="select_remediaion_Implement" duration-ms="0" started-at="2019-12-16T17:42:03 IST" finished-at="2019-12-16T17:42:03 IST">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='OK']"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
+  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e186baf82908e3cfd03a99a6b4b8d7da
-*** Element info: {Using=xpath, value=//*[text()='OK']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 97d3925747095adb8b41b6e8537815d4
+*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='OK']"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
+  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e186baf82908e3cfd03a99a6b4b8d7da
-*** Element info: {Using=xpath, value=//*[text()='OK']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 97d3925747095adb8b41b6e8537815d4
+*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -382,8 +359,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at gRCenforce.gRCenforceCreate_Compliance_Admin.click_new_Compliance(gRCenforceCreate_Compliance_Admin.java:197)
-at gRCenforce.gRCenforceSubmit_implemented_task.invokeBrowesers(gRCenforceSubmit_implemented_task.java:36)
+at gRCenforce.gRCenforceSubmit_Notimplemented_task.login(gRCenforceSubmit_Notimplemented_task.java:50)
+at gRCenforce.gRCenforceSubmit_Remediation_Implemented_task.invokeBrowesers(gRCenforceSubmit_Remediation_Implemented_task.java:38)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -412,39 +389,32 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- select_compliance_approve -->
-        <test-method status="SKIP" signature="logout()[pri:6, instance:gRCenforce.gRCenforceSubmit_implemented_task@351d00c0]" name="logout" duration-ms="0" started-at="2019-12-13T20:01:38 IST" finished-at="2019-12-13T20:01:38 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        </test-method> <!-- select_remediaion_Implement -->
+        <test-method status="SKIP" signature="logout()[pri:6, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="logout" duration-ms="0" started-at="2019-12-16T17:42:03 IST" finished-at="2019-12-16T17:42:03 IST">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='OK']"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
+  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e186baf82908e3cfd03a99a6b4b8d7da
-*** Element info: {Using=xpath, value=//*[text()='OK']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 97d3925747095adb8b41b6e8537815d4
+*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='OK']"}
-  (Session info: chrome=78.0.3904.108)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
+  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62360}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e186baf82908e3cfd03a99a6b4b8d7da
-*** Element info: {Using=xpath, value=//*[text()='OK']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 97d3925747095adb8b41b6e8537815d4
+*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
@@ -453,8 +423,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at gRCenforce.gRCenforceCreate_Compliance_Admin.click_new_Compliance(gRCenforceCreate_Compliance_Admin.java:197)
-at gRCenforce.gRCenforceSubmit_implemented_task.invokeBrowesers(gRCenforceSubmit_implemented_task.java:36)
+at gRCenforce.gRCenforceSubmit_Notimplemented_task.login(gRCenforceSubmit_Notimplemented_task.java:50)
+at gRCenforce.gRCenforceSubmit_Remediation_Implemented_task.invokeBrowesers(gRCenforceSubmit_Remediation_Implemented_task.java:38)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -483,15 +453,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="SKIP" signature="AfterClass()[pri:0, instance:gRCenforce.gRCenforceSubmit_implemented_task@351d00c0]" name="AfterClass" is-config="true" duration-ms="-1576247498580" started-at="2019-12-13T20:01:38 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="AfterClass()[pri:0, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="AfterClass" is-config="true" duration-ms="-1576498323875" started-at="2019-12-16T17:42:03 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-      </class> <!-- gRCenforce.gRCenforceSubmit_implemented_task -->
+      </class> <!-- gRCenforce.gRCenforceSubmit_Remediation_Implemented_task -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

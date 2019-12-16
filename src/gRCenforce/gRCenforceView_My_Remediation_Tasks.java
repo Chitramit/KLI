@@ -16,7 +16,7 @@ import java.util.*;
 
 public class gRCenforceView_My_Remediation_Tasks extends generalUtils {
 
-	 Xls_Reader read = new Xls_Reader("C:\\Users\\chitramitc478\\git\\KLI\\Datatable.xlsx");
+	static Xls_Reader read = new Xls_Reader("C:\\Users\\chitramitc478\\git\\KLI\\Datatable.xlsx");
 	
 	
 	
@@ -51,7 +51,7 @@ public class gRCenforceView_My_Remediation_Tasks extends generalUtils {
 	
 	@Test(priority=2)
 	
-	public void view_Overdue_remediation() throws Exception{
+	public static void view_Overdue_remediation() throws Exception{
 					
 		driver.findElement(By.xpath("//*[contains(@ng-if,'totalComplianceRemediationTasksOverdue')]")).click();
 		Thread.sleep(12000);
@@ -71,7 +71,7 @@ public class gRCenforceView_My_Remediation_Tasks extends generalUtils {
 	
 @Test(priority=3)
 	
-	public void view_total_remediation() throws Exception{
+	public static void view_total_remediation() throws Exception{
 					
 		driver.findElement(By.xpath("//*[contains(@ng-click,'getTotal')]")).click();
 		Thread.sleep(12000);

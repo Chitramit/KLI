@@ -3,17 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="gRCenforce.gRCenforceSubmit_implemented_task">
+      <class name="gRCenforce.gRCenforceSubmit_Remediation_Implemented_task">
         <methods>
-          <include name="login"/>
           <include name="filter_compliance"/>
           <include name="invokeBrowesers"/>
-          <include name="select_compliance_approve"/>
-          <include name="go_to_all_Compliances"/>
+          <include name="login"/>
           <include name="logout"/>
+          <include name="select_remediaion_Implement"/>
           <include name="AfterClass"/>
+          <include name="go_to_all_Remediation"/>
         </methods>
-      </class> <!-- gRCenforce.gRCenforceSubmit_implemented_task -->
+      </class> <!-- gRCenforce.gRCenforceSubmit_Remediation_Implemented_task -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

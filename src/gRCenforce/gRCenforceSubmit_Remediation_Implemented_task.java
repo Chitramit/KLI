@@ -18,7 +18,7 @@ import java.util.*;
 
 
 
-public class gRCenforceSubmit_implemented_task extends generalUtils {
+public class gRCenforceSubmit_Remediation_Implemented_task extends generalUtils {
 
 	 static Xls_Reader read = new Xls_Reader("C:\\Users\\chitramitc478\\git\\KLI\\Datatable.xlsx");
 	
@@ -35,6 +35,16 @@ public class gRCenforceSubmit_implemented_task extends generalUtils {
 		   gRCenforceCreate_Compliance_Admin.login();
 		   gRCenforceCreate_Compliance_Admin.click_new_Compliance();
 		   gRCenforceCreate_Compliance_Admin.logout();
+		   gRCenforceSubmit_Notimplemented_task.login();
+		   gRCenforceSubmit_Notimplemented_task.go_to_all_Compliances();
+		   gRCenforceSubmit_Notimplemented_task.filter_compliance();
+		   gRCenforceSubmit_Notimplemented_task.select_compliance_not_Implemented();
+		   gRCenforceSubmit_Notimplemented_task.logout();
+		   gRCenforceApprove_Compliance_Task.login();
+		   gRCenforceApprove_Compliance_Task.go_to_total_Compliance_Approval();
+		   gRCenforceApprove_Compliance_Task.filter_compliance();
+		   gRCenforceApprove_Compliance_Task.select_compliance_approve();
+		   gRCenforceApprove_Compliance_Task.logout();
 		  
 		  
 	}
@@ -59,13 +69,15 @@ public class gRCenforceSubmit_implemented_task extends generalUtils {
 	
 	@Test(priority=2)
 	
-	public static void go_to_all_Compliances() throws Exception{
+	public static void go_to_all_Remediation() throws Exception{
 					
-		driver.findElement(By.xpath("//*[contains(@ng-if,'totalComplianceTasksOverdue')]")).click();
+		driver.findElement(By.xpath("//*[contains(@ng-if,'totalComplianceRemediationTasksOverdue')]")).click();
 		Thread.sleep(12000);
+		generalUtils.takeScreenshots();	
 		driver.findElement(By.xpath("//*[contains(@ng-click,'getTotal')]")).click();
 		Thread.sleep(12000);
 		generalUtils.takeScreenshots();
+		
 		
 		
 		
@@ -85,19 +97,7 @@ public class gRCenforceSubmit_implemented_task extends generalUtils {
 		Select filtertype = new Select(driver.findElement(By.xpath("//*[text()='Filter Type']//following::select")));
 		filtertype.selectByVisibleText("Contains...");
 		Thread.sleep(3000);
-		
-		
-		//Deducting The Compliance Title name
-		
-				String compliance_title =  read.getCellData("RegisterUserData", "compliance_Tilte", 2);
-				String [] array = compliance_title.split("_");
-				int num = Integer.parseInt(array[1]);
-				num=num-1;
-				String sp2 = Integer.toString(num);
-				String sp3= array[0]+"_"+sp2;
-				
-		
-		driver.findElement(By.xpath("//*[@name='filterText']")).sendKeys(sp3);
+		driver.findElement(By.xpath("//*[@name='filterText']")).sendKeys(read.getCellData("RegisterUserData", "remediation_title", 2));
 		Thread.sleep(1000);
 		generalUtils.takeScreenshots();
 		driver.findElement(By.xpath("//*[text()='OK']")).click();
@@ -109,7 +109,7 @@ public class gRCenforceSubmit_implemented_task extends generalUtils {
 
 @Test(priority=4)
 
-public static void select_compliance_Implemented() throws Exception{
+public static void select_remediaion_Implement() throws Exception{
 						
 		driver.findElement(By.xpath("//*[@ng-click='selectButtonClick(row, $event)']")).click();
 		Thread.sleep(4000);
@@ -126,10 +126,7 @@ public static void select_compliance_Implemented() throws Exception{
 		driver.findElement(By.xpath("//*[@ng-click='select(dt.date)']/following::span[text()='13']")).click();
 		System.out.println("User is able to select date");
 		generalUtils.takeScreenshots();
-		driver.findElement(By.xpath("//*[@name='receipt']")).sendKeys("123123");
-		Thread.sleep(1000);
-		driver.findElement(By.xpath("//*[@name='penalty']")).sendKeys("1000");
-		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//*[@name='comment']")).sendKeys("Test Comments");
 		
 		Thread.sleep(2000);

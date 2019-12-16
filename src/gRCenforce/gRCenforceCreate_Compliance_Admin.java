@@ -171,7 +171,7 @@ public class gRCenforceCreate_Compliance_Admin extends generalUtils {
 		generalUtils.takeScreenshots();
 		
 		//select Assessment frequency
-		Select slct1 = new Select(dropdown.get(1));
+		Select slct1 = new Select(driver.findElement(By.xpath("//*[@name='AssessmentFrequencyId']")));
 		slct1.selectByVisibleText(read.getCellData("RegisterUserData", "assessment_frequency", 2));
 		
 		//Enter Owner name
