@@ -8,18 +8,18 @@
     </classes>
 </test> <!-- gRCenforceLogin_logout-->
 
-<test thread-count="1" name="gRCenforceView_Remediation_Tasks">
+<test thread-count="1" name="gRCenforceView_My_Remediation_Tasks">
     <classes>
-      <class name="gRCenforce.gRCenforceView_Remediation_Tasks"/>
+      <class name="gRCenforce.gRCenforceView_My_Remediation_Tasks"/>
 
     </classes>
-</test> <!-- gRCenforceView_Remediation_Tasks-->
+</test> <!-- gRCenforceView_My_Remediation_Tasks-->
 
-<test thread-count="1" name="gRCenforceView_Compliance_Tasks">
+<test thread-count="1" name="gRCenforceView_my_Compliance_Tasks">
     <classes>
-      <class name="gRCenforce.gRCenforceView_Compliance_Tasks"/>
+      <class name="gRCenforce.gRCenforceView_my_Compliance_Tasks"/>
 
     </classes>
-</test> <!-- gRCenforceView_Compliance_Tasks-->
+</test> <!-- gRCenforceView_my_Compliance_Tasks-->
 
 </suite> <!-- Suite -->
