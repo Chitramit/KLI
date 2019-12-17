@@ -1,467 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="5" failed="0" ignored="0" total="5" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_173941.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163046.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_173956.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163102.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174007.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163112.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174013.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163119.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174020.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163125.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174057.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163130.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174100.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163132.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174111.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163137.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174114.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163139.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174121.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163146.png' height='400' width='400'/><br>]]>
     </line>
     <line>
-      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174138.png' height='400' width='400'/><br>]]>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163150.png' height='400' width='400'/><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163207.png' height='400' width='400'/><br>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="164116" started-at="2019-12-16T17:39:19 IST" finished-at="2019-12-16T17:42:03 IST">
+  <suite name="Default suite" duration-ms="102251" started-at="2019-12-17T16:30:26 IST" finished-at="2019-12-17T16:32:08 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="164116" started-at="2019-12-16T17:39:19 IST" finished-at="2019-12-16T17:42:03 IST">
-      <class name="gRCenforce.gRCenforceSubmit_Remediation_Implemented_task">
-        <test-method status="FAIL" signature="invokeBrowesers()[pri:0, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="invokeBrowesers" is-config="true" duration-ms="164015" started-at="2019-12-16T17:39:19 IST" finished-at="2019-12-16T17:42:03 IST">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
-  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 97d3925747095adb8b41b6e8537815d4
-*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
-  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 97d3925747095adb8b41b6e8537815d4
-*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at gRCenforce.gRCenforceSubmit_Notimplemented_task.login(gRCenforceSubmit_Notimplemented_task.java:50)
-at gRCenforce.gRCenforceSubmit_Remediation_Implemented_task.invokeBrowesers(gRCenforceSubmit_Remediation_Implemented_task.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+    <test name="Default test" duration-ms="102251" started-at="2019-12-17T16:30:26 IST" finished-at="2019-12-17T16:32:08 IST">
+      <class name="gRCenforce.gRCenforceCompliance_history">
+        <test-method status="PASS" signature="invokeBrowesers()[pri:0, instance:gRCenforce.gRCenforceCompliance_history@351d00c0]" name="invokeBrowesers" is-config="true" duration-ms="20015" started-at="2019-12-17T16:30:26 IST" finished-at="2019-12-17T16:30:46 IST">
           <reporter-output>
             <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_173941.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_173956.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174007.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174013.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174020.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174057.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174100.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174111.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174114.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174121.png' height='400' width='400'/><br>]]>
-            </line>
-            <line>
-              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191216_174138.png' height='400' width='400'/><br>]]>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163046.png' height='400' width='400'/><br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- invokeBrowesers -->
-        <test-method status="SKIP" signature="login()[pri:1, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="login" duration-ms="0" started-at="2019-12-16T17:42:03 IST" finished-at="2019-12-16T17:42:03 IST">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
-  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 97d3925747095adb8b41b6e8537815d4
-*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
-  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 97d3925747095adb8b41b6e8537815d4
-*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at gRCenforce.gRCenforceSubmit_Notimplemented_task.login(gRCenforceSubmit_Notimplemented_task.java:50)
-at gRCenforce.gRCenforceSubmit_Remediation_Implemented_task.invokeBrowesers(gRCenforceSubmit_Remediation_Implemented_task.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+        <test-method status="PASS" signature="login()[pri:1, instance:gRCenforce.gRCenforceCompliance_history@351d00c0]" name="login" duration-ms="15727" started-at="2019-12-17T16:30:46 IST" finished-at="2019-12-17T16:31:02 IST">
           <reporter-output>
+            <line>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163102.png' height='400' width='400'/><br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="SKIP" signature="go_to_all_Remediation()[pri:2, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="go_to_all_Remediation" duration-ms="0" started-at="2019-12-16T17:42:03 IST" finished-at="2019-12-16T17:42:03 IST">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
-  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 97d3925747095adb8b41b6e8537815d4
-*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
-  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 97d3925747095adb8b41b6e8537815d4
-*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at gRCenforce.gRCenforceSubmit_Notimplemented_task.login(gRCenforceSubmit_Notimplemented_task.java:50)
-at gRCenforce.gRCenforceSubmit_Remediation_Implemented_task.invokeBrowesers(gRCenforceSubmit_Remediation_Implemented_task.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+        <test-method status="PASS" signature="Select_Location_BU()[pri:2, instance:gRCenforce.gRCenforceCompliance_history@351d00c0]" name="Select_Location_BU" duration-ms="30235" started-at="2019-12-17T16:31:02 IST" finished-at="2019-12-17T16:31:32 IST">
           <reporter-output>
+            <line>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163112.png' height='400' width='400'/><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163119.png' height='400' width='400'/><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163125.png' height='400' width='400'/><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163130.png' height='400' width='400'/><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163132.png' height='400' width='400'/><br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- go_to_all_Remediation -->
-        <test-method status="SKIP" signature="filter_compliance()[pri:3, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="filter_compliance" duration-ms="0" started-at="2019-12-16T17:42:03 IST" finished-at="2019-12-16T17:42:03 IST">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
-  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 97d3925747095adb8b41b6e8537815d4
-*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
-  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 97d3925747095adb8b41b6e8537815d4
-*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at gRCenforce.gRCenforceSubmit_Notimplemented_task.login(gRCenforceSubmit_Notimplemented_task.java:50)
-at gRCenforce.gRCenforceSubmit_Remediation_Implemented_task.invokeBrowesers(gRCenforceSubmit_Remediation_Implemented_task.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+        </test-method> <!-- Select_Location_BU -->
+        <test-method status="PASS" signature="select_department()[pri:3, instance:gRCenforce.gRCenforceCompliance_history@351d00c0]" name="select_department" duration-ms="17900" started-at="2019-12-17T16:31:32 IST" finished-at="2019-12-17T16:31:50 IST">
           <reporter-output>
+            <line>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163137.png' height='400' width='400'/><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163139.png' height='400' width='400'/><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163146.png' height='400' width='400'/><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163150.png' height='400' width='400'/><br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- filter_compliance -->
-        <test-method status="SKIP" signature="select_remediaion_Implement()[pri:4, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="select_remediaion_Implement" duration-ms="0" started-at="2019-12-16T17:42:03 IST" finished-at="2019-12-16T17:42:03 IST">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
-  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 97d3925747095adb8b41b6e8537815d4
-*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
-  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 97d3925747095adb8b41b6e8537815d4
-*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at gRCenforce.gRCenforceSubmit_Notimplemented_task.login(gRCenforceSubmit_Notimplemented_task.java:50)
-at gRCenforce.gRCenforceSubmit_Remediation_Implemented_task.invokeBrowesers(gRCenforceSubmit_Remediation_Implemented_task.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+        </test-method> <!-- select_department -->
+        <test-method status="PASS" signature="logout()[pri:4, instance:gRCenforce.gRCenforceCompliance_history@351d00c0]" name="logout" duration-ms="16765" started-at="2019-12-17T16:31:50 IST" finished-at="2019-12-17T16:32:07 IST">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- select_remediaion_Implement -->
-        <test-method status="SKIP" signature="logout()[pri:6, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="logout" duration-ms="0" started-at="2019-12-16T17:42:03 IST" finished-at="2019-12-16T17:42:03 IST">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
-  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 97d3925747095adb8b41b6e8537815d4
-*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : TypeError: Cannot read property 'pieChartOptions' of undefined}
-  (Session info: chrome=79.0.3945.79): TypeError: Cannot read property 'pieChartOptions' of undefined
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'INPC0TB3ZZ', ip: '10.90.97.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\CHITRA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 97d3925747095adb8b41b6e8537815d4
-*** Element info: {Using=xpath, value=//*[text()='Welcome']//following::span[2]}
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at gRCenforce.gRCenforceSubmit_Notimplemented_task.login(gRCenforceSubmit_Notimplemented_task.java:50)
-at gRCenforce.gRCenforceSubmit_Remediation_Implemented_task.invokeBrowesers(gRCenforceSubmit_Remediation_Implemented_task.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
-          <reporter-output>
+            <line>
+              <![CDATA[<br><img src='C:\Users\chitramitc478\Desktop\Screenshot\20191217_163207.png' height='400' width='400'/><br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="SKIP" signature="AfterClass()[pri:0, instance:gRCenforce.gRCenforceSubmit_Remediation_Implemented_task@351d00c0]" name="AfterClass" is-config="true" duration-ms="-1576498323875" started-at="2019-12-16T17:42:03 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:gRCenforce.gRCenforceCompliance_history@351d00c0]" name="afterClass" is-config="true" duration-ms="1563" started-at="2019-12-17T16:32:07 IST" finished-at="2019-12-17T16:32:08 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterClass -->
-      </class> <!-- gRCenforce.gRCenforceSubmit_Remediation_Implemented_task -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- gRCenforce.gRCenforceCompliance_history -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

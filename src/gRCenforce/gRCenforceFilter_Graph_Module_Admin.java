@@ -67,7 +67,8 @@ public class gRCenforceFilter_Graph_Module_Admin extends generalUtils  {
 		generalUtils.takeScreenshots();
 		
 		List<WebElement> plusIcon = driver.findElements(By.xpath("//*[text()='Location and BU']/ancestor::div[1]//div[@title=\"PwC India\"]//following::span[@class=\"ivh-treeview-twistie\"]"));
-		
+		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].click();", plusIcon.get(0));
 
 		Thread.sleep(6000);
 		generalUtils.takeScreenshots();

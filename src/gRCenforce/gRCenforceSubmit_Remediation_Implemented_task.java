@@ -59,7 +59,7 @@ public class gRCenforceSubmit_Remediation_Implemented_task extends generalUtils 
 		driver.findElement(By.xpath("//*[text()='Sign in']")).click();			
 		Thread.sleep(15000);
 		String Name = driver.findElement(By.xpath("//*[text()='Welcome']//following::span[2]")).getText();
-		assertEquals(Name,"Chitramit Chatterjee","Login Succesfull");		
+		assertEquals("Chitramit Chatterjee",Name,"Login Unsuccesful");		
 		 generalUtils.takeScreenshots();
 		 System.out.println("User is able to login");
 		  

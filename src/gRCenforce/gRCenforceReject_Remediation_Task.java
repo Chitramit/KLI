@@ -18,7 +18,7 @@ import java.util.*;
 
 
 
-public class gRCenforceApprove_Compliance_Task extends generalUtils {
+public class gRCenforceReject_Remediation_Task extends generalUtils {
 
 	static Xls_Reader read = new Xls_Reader("C:\\Users\\chitramitc478\\git\\KLI\\Datatable.xlsx");
 	
@@ -30,16 +30,9 @@ public class gRCenforceApprove_Compliance_Task extends generalUtils {
 	
 	{
 	
-		   generalUtils.launchChromeDriver();
-		   generalUtils.takeScreenshots();
-		   gRCenforceCreate_Compliance_Admin.login();
-		   gRCenforceCreate_Compliance_Admin.click_new_Compliance();
-		   gRCenforceCreate_Compliance_Admin.logout();
-		   gRCenforceSubmit_implemented_task.login();
-		   gRCenforceSubmit_implemented_task.go_to_all_Compliances();
-		   gRCenforceSubmit_implemented_task.filter_compliance();
-		   gRCenforceSubmit_implemented_task.select_compliance_Implemented();
-		   gRCenforceSubmit_implemented_task.logout();
+			generalUtils.launchChromeDriver();
+		    generalUtils.takeScreenshots();
+		 
 		  
 		   
 		   
@@ -67,58 +60,37 @@ public class gRCenforceApprove_Compliance_Task extends generalUtils {
 	
 	@Test(priority=2)
 	
-	public static void go_to_total_Compliance_Approval() throws Exception{
+	public static void go_to_total_Remediation_Approval() throws Exception{
 					
-		driver.findElement(By.xpath("//*[contains(@ui-sref,'complianceApprovalTasks')]")).click();
+		driver.findElement(By.xpath("//*[contains(@ui-sref,'remediationComplianceApprovalTasks')]")).click();
 		Thread.sleep(12000);
 				
 	}
-	
-@Test(priority=3)
-	
-	public static void filter_compliance() throws Exception{
-					
-		driver.findElement(By.xpath("//*[text()='Compliance']/following-sibling::div[@ng-repeat='colFilter in col.filters']")).click();
-		System.out.println("User is able to click on Filter");		
-		generalUtils.takeScreenshots();
-		driver.findElement(By.xpath("//*[text()='Text Filters']")).click();
-		System.out.println("User Clicks on Text Filter");
-		Thread.sleep(2000);
-		generalUtils.takeScreenshots();
-		Select filtertype = new Select(driver.findElement(By.xpath("//*[text()='Filter Type']//following::select")));
-		filtertype.selectByVisibleText("Contains...");
-		Thread.sleep(3000);
+				
 		
-		//Deducting The Compliance Title name
-		
-				String compliance_title =  read.getCellData("RegisterUserData", "compliance_Tilte", 2);
-				String [] array = compliance_title.split("_");
-				int num = Integer.parseInt(array[1]);
-				num=num-1;
-				String sp2 = Integer.toString(num);
-				String sp3= array[0]+"_"+sp2;
-		
-		driver.findElement(By.xpath("//*[@name='filterText']")).sendKeys(sp3);
-		Thread.sleep(1000);
-		generalUtils.takeScreenshots();
-		driver.findElement(By.xpath("//*[text()='OK']")).click();
-		Thread.sleep(3000);
-		generalUtils.takeScreenshots();
-		
+				
 	   
-		}
+		
 
-@Test(priority=4)
+@Test(priority=3)
 
 	public static void  select_compliance_approve() throws Exception{
+	
+	
+	String remediation_title =  read.getCellData("RegisterUserData", "remediation_title", 2);
+	String [] array = remediation_title.split("_");
+	int num = Integer.parseInt(array[1]);
+	num=num-1;
+	String sp2 = Integer.toString(num);
+	String sp3= array[0]+"_"+sp2;
 						
-		driver.findElement(By.xpath("//*[@ng-click='selectButtonClick(row, $event)']")).click();
+		driver.findElement(By.xpath("//*[text()='"+sp3+"']/ancestor::div[@ng-style='Viewport.rowStyle(rowRenderIndex)']//div[@ng-click='selectButtonClick(row, $event)']")).click();
 		Thread.sleep(4000);
 		generalUtils.takeScreenshots();
 		System.out.println("User is able to click on the Checkbox");
 		
-		//User Selects Approve Radio Button
-		driver.findElement(By.xpath("//*[text()='Approve']/ancestor::span//input")).click();
+		//User Selects Reject Radio Button
+		driver.findElement(By.xpath("//*[text()='"+sp3+"']/ancestor::div[@ng-style='Viewport.rowStyle(rowRenderIndex)']//input[contains(@ng-checked,'Reject')]")).click();
 		System.out.println("User selects approve checkbox");
 		
 		Thread.sleep(2000);
@@ -126,7 +98,7 @@ public class gRCenforceApprove_Compliance_Task extends generalUtils {
 		generalUtils.takeScreenshots();
 		
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@name='comment']")).sendKeys("Test Comments");
+		driver.findElement(By.xpath("//*[text()='"+sp3+"']/ancestor::div[@ng-style='Viewport.rowStyle(rowRenderIndex)']//textarea[@name='command']")).sendKeys("Test Comments");
 		
 		Thread.sleep(2000);
 		generalUtils.takeScreenshots();
