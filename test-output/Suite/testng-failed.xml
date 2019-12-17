@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="gRCenforceView_Remediation_Tasks(failed)">
+  <test thread-count="5" name="gRCenforceView_My_Remediation_Tasks(failed)">
     <classes>
-      <class name="gRCenforce.gRCenforceView_Remediation_Tasks">
+      <class name="gRCenforce.gRCenforceView_My_Remediation_Tasks">
         <methods>
-          <include name="afterClass"/>
           <include name="view_rejected_remediation"/>
+          <include name="afterClass"/>
           <include name="invokeBrowesers"/>
           <include name="view_due_remediation"/>
           <include name="view_total_remediation"/>
           <include name="view_Overdue_remediation"/>
         </methods>
-      </class> <!-- gRCenforce.gRCenforceView_Remediation_Tasks -->
+      </class> <!-- gRCenforce.gRCenforceView_My_Remediation_Tasks -->
     </classes>
-  </test> <!-- gRCenforceView_Remediation_Tasks(failed) -->
+  </test> <!-- gRCenforceView_My_Remediation_Tasks(failed) -->
+  <test thread-count="5" name="gRCenforceView_my_Compliance_Tasks(failed)">
+    <classes>
+      <class name="gRCenforce.gRCenforceView_my_Compliance_Tasks">
+        <methods>
+          <include name="AfterClass"/>
+          <include name="view_rejected_Complaince"/>
+          <include name="view_due_Complaince"/>
+          <include name="view_total_Complaince"/>
+          <include name="logout"/>
+          <include name="view_Overdue_Compliances"/>
+          <include name="invokeBrowesers"/>
+        </methods>
+      </class> <!-- gRCenforce.gRCenforceView_my_Compliance_Tasks -->
+    </classes>
+  </test> <!-- gRCenforceView_my_Compliance_Tasks(failed) -->
 </suite> <!-- Failed suite [Suite] -->
